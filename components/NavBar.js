@@ -6,6 +6,8 @@ const NavBar = () => {
   const router = useRouter();
   return (
     <>
+      {/* 
+      ModuleCSS
       <nav className={styles.nav}>
         <Link className={`${styles.link} ${router.pathname === '/' ? styles.active : ''}`} href="/">
           Home
@@ -13,7 +15,23 @@ const NavBar = () => {
         <Link className={`${styles.link} ${router.pathname === '/about' ? styles.active : ''}`} href="/about">
           About
         </Link>
+      </nav> 
+      */}
+      <nav>
+        <Link href="/">
+          Home
+        </Link>
+        <Link href="/about">
+          About
+        </Link>
       </nav>
+      <style jsx>{`
+        nav {
+          display: flex;
+          justify-content: space-between;
+          background-color: blanchedalmond;
+        }
+      `}</style>
     </>
   );
 }
