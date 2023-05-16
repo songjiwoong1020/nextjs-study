@@ -18,12 +18,15 @@ const NavBar = () => {
       </nav> 
       */}
       <nav>
-        <Link href="/">
-          Home
-        </Link>
-        <Link href="/about">
-          About
-        </Link>
+        <img src="vercel.svg" />
+        <div>
+          <Link href="/">
+            Home
+          </Link>
+          <Link href="/about">
+            About
+          </Link>
+        </div>
       </nav>
       <style jsx>{`
         nav {
