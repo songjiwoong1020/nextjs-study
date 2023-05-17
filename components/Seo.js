@@ -1,9 +1,10 @@
 import Head from "next/head";
 
 const Seo = ({title}) => {
+  const titleTxt = `${title} | Next Movies`;
   return (
     <Head>
-      <title>{title} | Next Movies</title>
+      <title>{titleTxt}</title>
     </Head>
   )
 }
