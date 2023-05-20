@@ -18,7 +18,7 @@ const NavBar = () => {
       </nav> 
       */}
       <nav>
-        <img src="vercel.svg" />
+        <img src="/vercel.svg" />
         <div>
           <Link href="/">
             Home
