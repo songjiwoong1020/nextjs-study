@@ -7,7 +7,7 @@ export default function Detail({ params }) {
   return (
     <div>
       <Seo title={title} />
-      <h4>{title}</h4>
+      <h4 className="text-3xl font-bold underline">{title}</h4>
     </div>
   );
 }
